@@ -129,7 +129,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- @media screen  and (max-width:768){
+ @media screen and (max-width:768px){
     .site-header{
         width: 100%;
     }
@@ -142,6 +142,25 @@ img {
     }
         
 }
+
+@media screen and (max-width:480px){
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .lessons .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+        
+    }
+    
+}
+    
+    
 
         
     

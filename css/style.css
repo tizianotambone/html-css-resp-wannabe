@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -74,6 +74,8 @@ img {
 .site-header {
     margin-top: 3rem;
 }
+
+
 
 /* LESSONS SECTION */
 .lessons .col {
@@ -127,3 +129,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen  and (max-width:768){
+    .site-header{
+        width: 100%;
+    }
+    
+    .lessons .col img {
+        width: 100%;
+    }
+    .steps {
+        width: 100%;
+    }
+        
+}
+
+        
+    
+    
